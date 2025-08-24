@@ -1,0 +1,1 @@
+Implements lesion segmentation with U-Net (ResNet34 encoder) and ConvLSTM, enhanced by SLIC superpixels; converts predicted masks to bounding boxes for ROI cropping and visualization. Evaluated for robustness across ISIC years 2016–2020, including ISIC-2017 where U-Net reached 86.43% accuracy / 55.17% IoU and ConvLSTM 85% accuracy / 48% IoU.
